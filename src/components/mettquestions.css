@@ -1,0 +1,96 @@
+.mett-container {
+  width: 100%;
+  padding: 10px;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  font-family: Calibri, Arial, sans-serif;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+}
+
+.excel-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  text-align: left;
+}
+
+.excel-table td {
+  border: 1px solid #d9d9d9;
+  padding: 5px 8px;
+  vertical-align: middle;
+}
+
+/* Row Color Coding matching Excel */
+.row-planning {
+  background-color: #d1ecf1; /* Light Blue */
+}
+
+.row-process {
+  background-color: #d4edda; /* Light Green */
+}
+
+.row-inputs {
+  background-color: #fff3cd; /* Light Yellow/Orange */
+}
+
+.row-outputs {
+  background-color: #e2e3e5; /* Light Gray / Yellowish tint */
+}
+
+.row-outcomes {
+  background-color: #f8d7da; /* Light Red/Pink */
+}
+
+.section-row {
+  background-color: #fce8e6;
+  font-style: italic;
+  color: #a71d2a;
+}
+
+.total-row {
+  background-color: #333333 !important;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.total-row td {
+  border-color: #444444;
+}
+
+/* Column Widths & Alignments */
+.col-no {
+  width: 6%;
+  text-align: center;
+}
+
+.col-text {
+  width: 60%;
+}
+
+.col-score {
+  width: 8%;
+  text-align: center;
+}
+
+.col-stage {
+  width: 18%;
+  color: #333333;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+}
